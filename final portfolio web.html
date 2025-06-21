@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aryan R. Remje | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #ffffff;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #000000;
+      color: #fff;
+      padding: 2rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    header .text-content {
+      flex: 1;
+      min-width: 250px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #c0eac0;
+    }
+    .profile-photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #c0eac0;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section h2 {
+      margin-bottom: 1rem;
+      color: #0b3d0b;
+      font-size: 1.8rem;
+    }
+    .skills ul, .projects ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1rem;
+    }
+    .skills li, .projects li {
+      background: #f0fdf4;
+      border: 1px solid #cce5cc;
+      border-radius: 12px;
+      padding: 1rem;
+    }
+    .projects a {
+      color: #00773c;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #0b3d0b;
+      color: white;
+    }
+    .contact p a {
+      color: #00773c;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="text-content">
+      <h1>Hi, I'm Aryan</h1>
+      <p>IoT Developer | Network Systems Enthusiast | PCB & Hardware Designer </p>
+    </div>
+    <img src="ARYAN.jpg" alt="Aryan R. Remje" class="profile-photo" />
+  </header>
+
+  <section class="section about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Aryan Remje — a passionate tech enthusiast with a strong background in embedded systems, real-time IoT solutions, and web-integrated hardware projects. From building smart automation systems to creating AI-enhanced monitoring setups, I combine innovation with hands-on execution. Currently exploring the world of cybersecurity and always ready for the next big challenge.</p>
+  </section>
+
+  <section class="section skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Embedded Firmware Development</strong><br />Programming microcontrollers for real-time systems and IoT.</li>
+      <li><strong>Firebase & Realtime Databases</strong><br />Live data handling and hardware-cloud integration.</li>
+      <li><strong>Python Programming</strong><br />For automation, scripting, and backend logic.</li>
+      <li><strong>Custom PCB Design</strong><br />Designing efficient, hardware-optimized circuit boards.</li>
+      <li><strong>Networking Fundamentals</strong><br />Understanding communication layers in connected systems.</li>
+    </ul>
+  </section>
+  <section class="section contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="Gmail:remje.aryan@gmail.com">remje.aryan@gmail.com</a></p>
+    <p>GitHub: <a href="https:github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+  </section>
+  <footer>
+    &copy; 2025 Aryan R. Remje. All rights reserved.
+  </footer>
+</body>
+</html>
